@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Montserrat", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  
+  --color-mh-dark: #2A1A08;
+  --color-mh-brown: #3C2612;
+  --color-mh-gold: #9B8816;
+  --color-mh-orange: #F98948;
+  --color-mh-light: #F9EA9A;
+}
+
+body {
+  @apply bg-mh-dark text-mh-light antialiased selection:bg-mh-orange selection:text-white;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+.bg-gradient-hover {
+  background-image: linear-gradient(to right, #9B8816 0%, #F98948 50%, #9B8816 100%);
+  background-size: 200% auto;
+  transition: 0.5s;
+}
+
+.bg-gradient-hover:hover {
+  background-position: right center;
+}
+
+.glass-panel {
+  @apply bg-mh-brown/40 backdrop-blur-md border border-mh-gold/20 shadow-xl;
+}
+
+::selection {
+  background: var(--color-mh-orange);
+  color: var(--color-mh-dark);
+}
