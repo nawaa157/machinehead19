@@ -33,36 +33,6 @@ const barbers = [
       { name: "Home Service", price: "start from 40k" },
     ],
   },
-
-  {
-    name: "Alan",
-    badge: "Profesional",
-    services: [
-      { name: "Haircut & styling", price: "15k" },
-      { name: "For booking", price: "20k" },
-      { name: "Home Service", price: "start from 30k" },
-    ],
-  },
-
-  {
-    name: "Azul",
-    badge: "Profesional",
-    services: [
-      { name: "Haircut & styling", price: "15k" },
-      { name: "For booking", price: "20k" },
-      { name: "Home Service", price: "start from 30k" },
-    ],
-  },
-
-  {
-    name: "Habil",
-    badge: "Profesional",
-    services: [
-      { name: "Haircut & styling", price: "15k" },
-      { name: "For booking", price: "20k" },
-      { name: "Home Service", price: "start from 30k" },
-    ],
-  },
 ];
 
 export function Services() {
