@@ -5,32 +5,16 @@ import { cn } from "../lib/utils";
 
 const barbers = [
   {
-    name: "Rofiqi",
-    badge: "Profesional",
     services: [
       { name: "Haircut & styling", price: "20k" },
+      { name: "Haircut, styling & wash", price: "25k" },
       { name: "Woman Haircut & Styling", price: "start from 50k" },
-      { name: "For booking", price: "25k" },
       { name: "Perm Treatment", isTitle: true },
       { name: "Downperm", price: "start from 70k" },
       { name: "Design perm", price: "start from 100k" },
       { name: "Kreatif perm", price: "start from 110k" },
-      { name: "Home Service", price: "start from 40k" },
-    ],
-  },
-
-  {
-    name: "Ghofar",
-    badge: "Profesional",
-    services: [
-      { name: "Haircut & styling", price: "20k" },
-      { name: "Woman Haircut & Styling", price: "start from 50k" },
-      { name: "For booking", price: "25k" },
-      { name: "Perm Treatment", isTitle: true },
-      { name: "Downperm", price: "start from 70k" },
-      { name: "Design perm", price: "start from 100k" },
-      { name: "Kreatif perm", price: "start from 110k" },
-      { name: "Home Service", price: "start from 40k" },
+      { name: "Home Service", isTitle: true, price: "start from 40k" },
+      { name: "resevasi/booking", price: "+5k"},
     ],
   },
 ];
@@ -51,12 +35,11 @@ export function Services() {
         {/* HEADER */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-serif font-bold text-white mb-4">
-            Layanan & Tukang Cukur
+            Daftar Layanan
           </h2>
 
           <p className="text-mh-light/70 max-w-2xl mx-auto">
-            Pilih tukang cukur profesional kami dan temukan layanan
-            yang sesuai dengan kebutuhan Anda.
+            Pilih dan sesuaikan kebutuhanmu, karena "Rapi itu pilihan bukan kebetulan".
           </p>
         </div>
 
