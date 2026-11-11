@@ -10,7 +10,7 @@ const barbers = [
       { name: "Haircut, styling & wash", price: "25k" },
       { name: "Woman Haircut & Styling", price: "start from 50k" },
       { name: "resevasi/booking", price: "+5k"},
-      { name: "Home Service", isTitle: true, price: "start from 40k" },
+      { name: "Home Service", price: "start from 40k" },
       { name: "Perm Treatment", isTitle: true },
       { name: "Downperm", price: "start from 70k" },
       { name: "Design perm", price: "start from 100k" },
